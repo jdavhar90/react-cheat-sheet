@@ -38,10 +38,9 @@ constructor() {
   {
     name: "componentDidMount",
     example: `componentDidMount() {
-  // good for AJAX: fetch, ajax, or subscriptions.
 
-  // invoked once (client-side only).
-  // fires before initial 'render'
+  // is invoked immediately after updating occurs. 
+  // This method is not called for the initial render
 }`,
     reference: "https://reactjs.org/docs/react-component.html#componentdidmount"
   },
